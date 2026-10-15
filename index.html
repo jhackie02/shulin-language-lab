@@ -153,8 +153,8 @@
             {
                 id: 'topic_001',
                 name: 'Daily Greetings / 常見問候語',
-                targetRange: 'school', // school | class | student
-                targetClass: 'ALL',
+                targetRange: '', // school | class | student
+                targetClass: '',
                 targetStudents: [],
                 sentences: [
                     { id: 's1', english: 'Good morning. How are you?', chinese: '早安。你好嗎？' },
@@ -169,32 +169,27 @@
                 name: "Scene 1-1",
                 targetRange: 'student',
                 targetClass: ['3', '4', '5'],
-                targetStudents: ['Harry', 'Hugo', 'Gigi', 'Jason', 'Jane', 'Cindy', 'Paul', 'Alice', 'Emma', 'Coco', 'Mika', 'Sample', 'Henin'],
+                targetStudents: ['Harry', 'Hugo', 'Gigi', 'Jason', 'Jane', 'Cindy', 'Paul', 'Alice', 'Emma', 'Coco', 'Mika', 'Sample',],
                 sentences: [
-                    { id: 's6', english: "In Tainan, life is peaceful under the warm sun.", chinese: "在臺南，溫暖的陽光灑落大地，生活平靜而美好。" },
-                    { id: 's7', english: "Salt fields sparkle", chinese: "鹽田閃閃發光" },
-                    { id: 's8', english: "and fish ponds shine like mirrors", chinese: "魚塭像鏡子一樣映照著天空" },
-                    { id: 's9', english: "Milkfish swim slowly in clear water", chinese: "虱目魚悠游在清澈的水中" },
-                    { id: 's10', english: "oysters grow near the coast", chinese: "牡蠣生長在海岸邊" },
-                    { id: 's11', english: "and sweet melons and pomelos make the fields lively", chinese: "香甜的哈密瓜和文旦讓農田充滿生機"},
-                    { id: 's12', english: "Six tiny Pikmin live here", chinese: "有六隻小小的皮克敏住在這裡" },
-                    { id: 's13', english: "protecting nature and helping the community", chinese: "守護著大自然，也幫助這個社區" }                    
-                ]
+                    { id: '1N1-1', english: "Life in Tainan is peaceful under the warm sun.", chinese: "在溫暖的陽光照耀下，台南的生活十分寧靜。" },
+                    { id: '1N1-2', english: "Salt fields sparkle.", chinese: "鹽田閃閃發光。" },
+                    { id: '1N1-3', english: "Fish ponds shine like mirrors.", chinese: "魚塭像鏡子一樣閃閃發亮。" },
+                    { id: '1N2-1', english: "Milkfish swim slowly in clear water.", chinese: "虱目魚在清澈的水中慢慢游動。" },
+                    { id: '1N2-2', english: "Oysters grow by the sea.", chinese: "牡蠣在海邊生長。" },
+                    ]
             },
             {
                 id: "RT_002",
                 name: "Scene 1-2",
                 targetRange: 'student',
                 targetClass: ['3', '4', '5'],
-                targetStudents: ['Harry', 'Hugo', 'Gigi', 'Jason', 'Jane', 'Cindy', 'Paul', 'Alice', 'Emma', 'Coco', 'Mika', 'Sample', 'Henin'],
+                targetStudents: ['Harry', 'Hugo', 'Gigi', 'Jason', 'Jane', 'Cindy', 'Paul', 'Alice', 'Emma', 'Coco', 'Mika', 'Sample', ],
                 sentences: [
-                    { id: 's14', english: "I am Red Pikmin.", chinese: "我是紅色皮克敏。" },
-                    { id: 's15', english: "I am brave.", chinese: "我很勇敢。"},
-                    { id: 's16', english: "and I act first when danger comes.", chinese: "危險來臨時，我總是第一個站出來。"},
-                    { id: 's17', english: "I am Blue Pikmin.", chinese: "我是藍色皮克敏。"},
-                    { id: 's18', english: "I love water.", chinese: "我最喜歡水。"},
-                    { id: 's19', english: "I may act silly sometimes", chinese: "雖然我有時候有點迷糊"},
-                    { id: 's20', english: "but I always finish my work", chinese: "但我一定會把工作完成"}
+                    { id: '1N2-3', english: "Sweet melons and pomelos make the fields lively.", chinese: "香甜的哈密瓜和柚子讓田野充滿生氣。" },
+                    { id: '2N1-1', english: "Six tiny Pikmin live here.", chinese:"六個小小的皮克敏住在這裡。"},
+                    { id: '2N1-2', english: "They protect our nature and help the community.", chinese: "他們保護我們的自然環境，並幫助社區。" },
+                    { id: 'RP1', english: "I am red pikmin. I am brave.", chinese: "我是紅色皮克敏。 我很勇敢。" },
+                    { id: 'RP2', english: " I move first when danger comes.", chinese: "危險來臨時，我會第一個挺身而出。" },
                 ]
             },
             {
@@ -202,14 +197,14 @@
                 name: "Scene 1-3",
                 targetRange: 'student',
                 targetClass: ['3', '4', '5'],
-                targetStudents: ['Harry', 'Hugo', 'Gigi', 'Jason', 'Jane', 'Cindy', 'Paul', 'Alice', 'Emma', 'Coco', 'Mika', 'Sample', 'Henin'],
+                targetStudents: ['Harry', 'Hugo', 'Gigi', 'Jason', 'Jane', 'Cindy', 'Paul', 'Alice', 'Emma', 'Coco', 'Mika', 'Sample',],
                 sentences: [
-                    { id: 's21', english: 'I am Yellow Pikmin.', chinese: '我是黃色皮克敏。'},
-                    { id: 's22', english: "I always look on the bright side", chinese: "我總是往好的方面想"},
-                    { id: 's23', english: "and bring positive energy", chinese: "並把快樂和希望帶給大家"},
-                    { id: 's24', english: "I am Purple Pikmin.", chinese: "我是紫色皮克敏。"}, 
-                    { id: 's25', english: "I am the strongest", chinese: "我是最強壯的"},
-                    { id: 's26', english: "but sometimes I get scared", chinese: "不過有時候我也會害怕"}
+                    { id: 'BP1', english: "I am blue pikmin. I love water.", chinese: "我是藍色皮克敏。我喜歡水。" },
+                    { id: 'BP2', english: "I may act silly sometimes but I always finish my work.", chinese: "有時候我可能會做出一些傻氣的舉動，但我總是會把工作完成。" },
+                    { id: 'YP1', english: "I am yellow pikmin.", chinese: "我是黃色皮克敏。" },
+                    { id: 'YP2', english: "I see the good in everything and share positive energy.", chinese: "我看到每件事的積極面，並分享正面的能量。" },
+                    { id: 'PP1', english: "I am purple pikmin. I am super strong.", chinese: "我是紫色皮克敏。我非常強壯。" },
+                    { id: 'PP2', english: "I can carry anything.", chinese: "我能搬運任何東西。" },
                 ]
             },
             {
@@ -217,29 +212,16 @@
                 name: "Scene 1-4",
                 targetRange: 'student',
                 targetClass: ['3', '4', '5'],
-                targetStudents: ['Harry', 'Hugo', 'Gigi', 'Jason', 'Jane', 'Cindy', 'Paul', 'Alice', 'Emma', 'Coco', 'Mika', 'Sample', 'Henin'],
+                targetStudents: ['Harry', 'Hugo', 'Gigi', 'Jason', 'Jane', 'Cindy', 'Paul', 'Alice', 'Emma', 'Coco', 'Mika', 'Sample', ],
                 sentences: [
-                    { id: 's27', english: "I am Rock Pikmin.", chinese: "我是岩石皮克敏。"},
-                    { id: 's28', english: "I stay calm", chinese: "我總是保持冷靜"},
-                    { id: 's29', english: "think carefully", chinese: "仔細思考"},
-                    { id: 's30', english: "and help everyone work together", chinese: "並幫助大家一起合作"}
+                { id: 'RRP1', english: "I am rock pikmin. I stay calm,", chinese: "我是岩石皮克敏。我保持冷靜，" },
+                    { id: 'RRP2', english: "think carefully, and help everyone work together.", chinese: "仔細思考，並幫助大家協作。" },
+                    { id: 'PPP1', english: "I am pink pikmin. I can fly.", chinese: "我是粉色皮克敏。我會飛。" },
+                    { id: 'PPP2', english: "I love helping friends. I never miss a chance to spread hope.", chinese: "我喜歡幫助朋友。我從不放過傳播希望的機會。" },
+                    { id: 'all', english: "We are small but we protect our home.", chinese: "我們雖然渺小，但我們保護自己的家。" }
                 ]
             },
-            {
-                id: "RT_005",
-                name: "Scene 1-5",
-                targetRange: 'student',
-                targetClass: ['3', '4', '5'],
-                targetStudents: ['Harry', 'Hugo', 'Gigi', 'Jason', 'Jane', 'Cindy', 'Paul', 'Alice', 'Emma', 'Coco', 'Mika', 'Sample', 'Henin'],
-                sentences: [
-                    { id: 's31', english: "I am Pink Pikmin. ", chinese: "我是粉紅皮克敏。"}, 
-                    { id: 's32', english: "I can fly.", chinese: "我會飛。"},
-                    { id: 's33', english: "I love helping friends", chinese: "我喜歡幫助朋友"},
-                    { id: 's34', english: "and I never miss a chance to spread hope", chinese: "也從不錯過傳遞希望的機會"},
-                    { id: 's35', english: "We are small", chinese: "我們雖然小"},
-                    { id: 's36', english: "but we protect our home", chinese: "卻守護著我們的家園"},
-                ]
-            }           
+     
         ];
 
         const GUILDS = {
